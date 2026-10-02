@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TentangActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TENTANG KAMI"
+        android:textSize="20dp"
+        android:textColor="#673AB7"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/baseline_assignment_ind_24"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perkenalkan, nama saya Septian Hidayat. Saya adalah seorang mahasiswa yang sedang menempuh pendidikan di Universitas Hang Tuah Pekanbaru.
+
+Sebagai mahasiswa, saya ingin terus belajar, mengembangkan kemampuan, dan mendapatkan pengalaman yang dapat berguna untuk masa depan."
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textColor="#673AB7"/>
+
+</LinearLayout>
